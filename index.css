@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&family=Raleway:wght@100&display=swap');
+body{
+    /*background: linear-gradient(skyblue, black);*/
+    background-image: url(./photo-1559039617-250d5b086f89.avif);
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    font-family:raleway;
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    width:748px;
+    border: 6px solid black;
+   display: flex;
+   justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(2deg);
+    box-shadow: 50px black;
+    filter:drop-shadow(0px 0px 25px black)
+
+
+}
+h3  {
+    color:white;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom:-20px;
+    border-radius: 10px;
+
+}
+h4{
+    color: white;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   margin-top: 20px;
+   border-radius: 10px;
+}
+h3:hover{
+    background-color: white;
+    color:rgb(0, 26, 59) ;
+    zoom: 50%;
+    transform: scale(1.1);
+}
+h5  {
+    color:white;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom:-20px;
+    border-radius: 10px;
+
+}
+h6{
+    
+        color:white;
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 100px;
+        font-size: 30px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom:-20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+}
+h4:hover{
+    background-color: white;
+    color:rgb(0, 26, 59) ;
+    transform: scale(1.1);
+}
+h5:hover{
+    background-color: white;
+    color:rgb(0, 26, 59) ;
+    transform: scale(1.1);
+}
+h6:hover{
+    background-color: white;
+    color:rgb(0, 26, 59) ;
+    transform: scale(1.1);
+}
+h3,h4,h5,h6{
+    text-shadow: 0px 20px 200px black;
+}
